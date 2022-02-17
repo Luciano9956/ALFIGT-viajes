@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Viajes</title>
+</head>
+<body>
+    <video src="image/Video-Background.mp4"autoplay loop></video>
+    <div class="grid-container">
+
+        <!------------Navegacion----------->
+
+        <nav>
+            <img class="logo" src="image/logo1.png" alt="logo">
+            <ul class="nav__link">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reserva.html">Reserva el Viaje</a></li>
+            </ul>
+        </nav>
+
+         <!------------Reserva----------->
+
+
+        <main>
+            <div class="galeria">
+            <div class="galeria__box">
+                <img src="image/madrid.jpg" class="img_galeria" alt="terrarios">
+            </div>
+            <div class="galeria__box">
+                <img src="image/miami.jpg" class="img_galeria" alt="cactus">
+            </div>
+            <div class="galeria__box">
+                <img src="image/nueva-zelanda2.jpg" class="img_galeria" alt="terrario">
+            </div>
+            <div class="galeria__box">
+                <img src="image/nueva-zelanda1.jpg" class="img_galeria" alt="terrario">
+            </div>
+            </div>
+        </main>
+
+         <!------------Formulario----------->
+
+         <aside>
+            <div class="div_main_c">
+                <div>
+                    <h1 class="div_titulo_c" >Reserva</h1>
+                </div>
+            </div>
+            <form action="" method="post">
+                <div>
+                    <div class="grupo">
+                        <input type="text" name="" id="fnombre" placeholder="Nombre" required>
+                        <label for="fnombre"></label>
+                    </div>             
+                     <div class="grupo">
+                        <input type="text" name="" id="fapellido" placeholder="Apellido" required>
+                        <label for="fapellido"></label>
+                    </div>
+                    <div class="grupo">
+                        <input type="email" name="" id="femail" placeholder="Email" required>
+                        <label for="femail"></label>
+                    </div>
+                    <div class="grupo">
+                        <select name="framework" id="" required>
+                            <option value="1">Miami</option>
+                            <option value="2">cancún</option>
+                            <option value="3">Nueva Zelanda</option>
+                            <option value="4">Madrid</option>
+                        </select>
+                    </div>
+                    <div class="grupo">
+                        <input type="radio" id="html" name="Personas" value="1 pasajero" required>
+                        <label for="html">1 pasajero</label><br>
+                        <input type="radio" id="css" name="Personas" value="2 pasajero" required>
+                        <label for="css">2 pasajero</label><br>
+                        <input type="radio" id="javascript" name="Personas" value="3 pasajero" required>
+                        <label for="javascript">3 pasajero</label>
+                    </div>
+                    <button class="grupo" type="submit">Enviar</button>
+                </div>
+        </aside>
+    
+
+         <!------------Pie de Pagina----------->
+
+
+        <footer class="pie__pagina">
+            <div class="grupo__1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img class="f__logo" src="image/logo1.png" alt="logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h3>SOBRE NOSOTROS</h3>
+                    <p>Somos una compania de viaje que sueña poder hacer realidad todos tus viajes soñados</p>
+                </div>
+            </div>
+            <div class="grupo__2">
+                <small>&copy; 2022 <b>ALFIGT</b> - Todos los Derechos Reservados </small>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
