@@ -143,6 +143,14 @@ nav {
     font-family: 'Bebas Neue', cursive;
 }
 
+.galeria__box3{
+    transition: 1s;
+}
+
+.galeria__box3:hover{
+    transform: scale(1.1);
+}
+
 /* ---------------Reserva - Galeria ------------------ */
 
 .galeria{
